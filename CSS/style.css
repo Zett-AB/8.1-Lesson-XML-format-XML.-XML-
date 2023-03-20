@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+}
+@font-face {
+	font-family: 'Philosopher'; 
+	src: local('Phlosopher'),
+		url(fonts/Philosopher/Philosopher-Regular.ttf),
+        url(fonts/Philosopher/Philosopher-Bold.ttf),
+        url(fonts/Philosopher/Philosopher-BoldItalic.ttf),
+        url(fonts/Philosopher/Philosopher-Italic.ttf); 
+        font-style: normal; 
+        font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat_Alternates'; 
+	src: local('Montserrat_Alternates'),
+		url(fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Black.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Italic.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Thin.ttf); 
+        font-style: normal; 
+        font-weight: normal;
+}
+h1, h2,h3,h4,h5,h6{
+    font-family: Philosopher;
+}
+p {
+    font-family: Montserrat Alternates;
+    font-size: 18px;
+}
+main{
+    padding: 32px;
+    background-color:bisque;
+}
+
+.rules_xml_struct{
+    color: rgb(216, 113, 113);
+    border: 1px solid rgb(204, 148, 7);
+    padding: 20px 0px 20px 30px;
+}
+.attn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: normal;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.subtitle-php{
+    border: 1px solid rgb(1, 1, 255);
+    background-color: rgb(190, 190, 245);
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: blue;
+    text-align: center;
+}
+.subtitle_php_xml{
+    font-family: Montserrat Alternates;
+    font-size: 23px;
+    text-align: center;
+    color: rgb(26, 10, 250);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border: 1px solid goldenrod;
+    background-color: rgb(252, 229, 171);
+}
+.num{
+    color: rgb(50, 196, 6);
+}
+.arr{
+    border: 1px solid goldenrod;
+    font-family: Montserrat Alternates;
+    font-size: 15px;
+}
+
+.subtitle{
+    font-size: 23px;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: rgb(216, 216, 255);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.begin{
+    border: 1px solid brown;
+    padding: 18px;    
+}
+.about_xml{
+    background-color: rgb(224, 189, 99);
+    padding: 80px 30px 90px 80px;
+    font-family: Montserrat Alternates;
+    font-size: 18px;
+}
+.rules_xml{
+    padding: 80px 30px 90px 80px;
+    font-family: Montserrat Alternates;
+    font-size: 18px;
+}
